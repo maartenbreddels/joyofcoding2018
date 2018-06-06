@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -ex
+
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install jupyter-threejs bqplot jupyterlab-webrtc
+
+git clone https://github.com/maartenbreddels/ipyvolume/
+pushd ipyvolume
+git checkout tags/joyofcoding
+pip install .
+jupyter labextension install js
+popd
+
