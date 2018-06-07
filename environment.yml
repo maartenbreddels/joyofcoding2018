@@ -15,4 +15,4 @@ dependencies:
   - ipyleaflet=0.8.1
   - notebook >=5.4
   - widgetsnbextension >=3.0.0
-  - sklearn
+  - scikit-learn
