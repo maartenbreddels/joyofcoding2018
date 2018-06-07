@@ -2,7 +2,7 @@
 
 set -ex
 
-jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs bqplot jupyterlab-webrtc ipyvolume
+#jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs bqplot jupyterlab-webrtc ipyvolume
 
 #git clone https://github.com/maartenbreddels/ipyvolume/
 #pushd ipyvolume
