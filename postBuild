@@ -2,13 +2,12 @@
 
 set -ex
 
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
-jupyter labextension install jupyter-threejs bqplot jupyterlab-webrtc
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs bqplot jupyterlab-webrtc ipyvolume
 
-git clone https://github.com/maartenbreddels/ipyvolume/
-pushd ipyvolume
-git checkout tags/joyofcoding
-pip install .
-jupyter labextension install js
-popd
+#git clone https://github.com/maartenbreddels/ipyvolume/
+#pushd ipyvolume
+#git checkout tags/joyofcoding
+#pip install .
+#jupyter labextension install js
+#popd
 
